@@ -35,7 +35,12 @@ public class ErrorValidationsTest extends BaseTest {
 
 		Assert.assertTrue(cartPage.verifyProductDisplay(productName));
 		
-		
+		System.out.println("Hello World2");
+		System.out.println("Hello World2");
+		System.out.println("Hello World2");
+		System.out.println("Hello World2");
+		System.out.println("Hello World2");
+		System.out.println("Hello World2");
 		
 	}
 
