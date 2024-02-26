@@ -52,6 +52,10 @@ public class Test {
 		driver.findElement(By.cssSelector(".action__submit")).click();
 		String message = driver.findElement(By.cssSelector(".hero-primary")).getText();
 		Assert.assertEquals(message, "THANKYOU FOR THE ORDER.");
+		
+		System.out.println("Hello World");
+		System.out.println("Hello World1");
+		System.out.println("Hello World2");
 	}
 
 }
